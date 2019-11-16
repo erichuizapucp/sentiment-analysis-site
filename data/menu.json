@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "text": "Inicio",
+      "link": "/"
+    },
+    {
+      "text": "Estado del Arte",
+      "link": "/state-of-art"
+    },
+    {
+      "text": "Método",
+      "link": "/method"
+    },
+    {
+      "text": "Conjunto de Datos",
+      "link": "/dataset"
+    },
+    {
+      "text": "Resultados",
+      "link": "/results"
+    },
+    {
+      "text": "Referencias",
+      "link": "/references"
+    }
+  ]
+}
