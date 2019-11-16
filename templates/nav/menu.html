@@ -1,13 +1,14 @@
-{% extends "base/main_layout.html" %}
+{% macro get_navlink_class(link) %}
+    {% if link == request.path %}nav-link active{% else %}nav-link{% endif %}
+{% endmacro %}
 
 <ul class="nav">
-    {% for menu_item in menu_items %}
-        <li class="nav-item">
-            {% if menu_item.link == '' %}
-                <a class="nav-link active" href="{{ menu_item.link }}">{{ menu_item.text }}</a>
-            {% else %}
-                <a class="nav-link" href="{{ menu_item.link }}">{{ menu_item.text }}</a>
-            {% endif %}
-        </li>
-    {% endfor %}
+    <li class="nav-item">
+        <a class="{{ get_navlink_class('/') }}" href="/">Inicio</a>
+        <a class="{{ get_navlink_class('/state-of-art') }}" href="/state-of-art">Estado del Arte</a>
+        <a class="{{ get_navlink_class('/method') }}" href="/method">Método</a>
+        <a class="{{ get_navlink_class('/dataset') }}" href="/dataset">Conjunto de Datos</a>
+        <a class="{{ get_navlink_class('/results') }}" href="/results">Resultados</a>
+        <a class="{{ get_navlink_class('/references') }}" href="/references">Referencias</a>
+    </li>
 </ul>
