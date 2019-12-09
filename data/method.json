@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "title": "Desarrollo del Proyecto",
+      "subsections": [
+        {
+          "title": "Preparación de los datos",
+          "content": [
+            "Los datos obtenidos provienen de comentarios a películas registradas en el sitio web IMDB. Esta base de datos publicada el 2011 [6] contiene una serie de caracteres y símbolos, así como etiquetas HTML que no influyen de manera positiva a la correcta clasificación de la opinión de los usuarios, utilizando expresiones regulares se eliminaron los caracteres no alfanuméricos así como las etiquetas HTML.",
+            "Una vez eliminados los caracteres no alfanuméricos y las etiquetas HTML, se realizó una búsqueda de StopWords, para esto se utilizó la librería NLTK, como la totalidad del contenido se encuentra en el idioma inglés, se descargó el corpus de StopWords del idioma inglés.",
+            "Una vez procesados los StopWords, para mejorar el entendimiento de la semántica del contenido de IMDB se realizó un pre procesamiento para reconocer la raíz de las palabras, para esto se usó la técnica Stemming sobre las sentencias disponibles en el contenido para que sean agnósticas del tiempo verbal así como de las conjugaciones y como resultado se obtuvo contenido que puede ser normalizado y del cual se pueden extraer características.",
+            "La normalización y extracción de características se realizó utilizando Word2Vec, el cual hace uso de técnicas del estado del arte en la extracción de características de datos en formato texto."
+          ]
+        },
+        {
+          "title": "Análisis",
+          "content": [
+            "El análisis del contenido se realizó haciendo uso de una red neuronal fully connected la cual cuenta con la siguiente arquitectura:",
+            "<img src=\"/static/img/network-architecture.png\" alt=\"Network Architecture\">",
+            "Una capa densa o fully connected que acepta parámetros de entrada de cien dimensiones, como resultado del procesamiento con Word2Vec, dos capas adicionales que usan ReLU como función de activación, así como una capa de salida con dos neuronas para la clasificación de Positivo o Negativo para el análisis de opinión.",
+            "La función de pérdida seleccionada fue la Entropía Cruzada, y el optimizador seleccionado fue Gradiente Descendente Estocástico.",
+            ""
+          ]
+        },
+        {
+          "title": "Pruebas",
+          "content": [
+            "Se realizaron pruebas con un conjunto de datos de 25 000 comentarios y se compararon con los resultados obtenidos con el conjunto de entrenamiento, los resultados se pueden visualizar en las figuras 2 y 3.",
+            "<img src=\"/static/img/model-accuracy.png\" alt=\"Exactitud del modelo\">",
+            "<img src=\"/static/img/model-loss.png\" alt=\"Pérdida del Model\">"
+          ]
+        },
+        {
+          "title": "Pruebas con contenido de un contexto diferente",
+          "content": [
+            "Se realizaron pruebas con el modelo pre entrenado con contenido de IMDB sobre contenido extraído de la tienda virtual Amazon, se obtuvieron resultados mixtos con una exactitud de 0.43.",
+            "<img src=\"/static/img/results-other-dataset.png\" alt=\"Resultados con otro conjunto de datos\">"
+          ]
+        }
+      ]
+    }
+  ]
+}

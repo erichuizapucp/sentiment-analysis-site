@@ -1,9 +1,12 @@
 {% extends "base/main_layout.html" %}
+{% from "components/article.html" import print_article %}
+{% from "components/banner.html" import print_banner %}
 
 {% block main %}
-<section>
-    {% if title %}
-        <h1>{{ title }}</h1>
+    {% if banner %}
+        {{ print_banner(banner) }}
     {% endif %}
-</section>
+    {% for item in data['items'] %}
+        {{ print_article(item) }}
+    {% endfor %}
 {% endblock %}

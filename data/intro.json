@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "title": "Introducción",
+      "content": [
+        "El análisis de opinión, sentimiento y contenido es un área de investigación del Procesamiento del Lenguaje Natural que cuenta con más de 15 años de desarrollo. Los primeros sistemas y modelos están recogidos en la monografía de Pang y Lee de 2008, fecha en la que se producen también las primeras aplicaciones comerciales. El objetivo es conocer lo que opinan los usuarios de las redes sociales sobre productos, servicios, marcas, personas e instituciones, en este trabajo aplicamos análisis de opinión a contenido de IMDB y luego aplicamos el modelo pre entrenado a contenido relacionado a otro contexto, para este caso hemos seleccionado contenido de la tienda virtual Amazon.",
+        "Esta información es espontánea y poco estructurada, y refleja lo que opinan los usuarios, no los expertos. En muchas ocasiones, internet se utiliza para difundir quejas o recomendaciones que llegan a afectar directamente a la imagen corporativa. Las compañías y agencias de comunicación entienden el valor de esta información para sus estrategias comerciales, la atención al cliente y la detección de tendencias. Además, las organizaciones que contratan empresas de comunicación quieren conocer el impacto social de sus noticias y campañas para valorar la estrategia comercial."
+      ],
+      "subsections": [
+        {
+          "title": "Justificación",
+          "content": [
+            "Las organizaciones requieren conocer la percepción que tienen los usuarios o clientes, así como su aplicación en diferentes contextos,  con lo cual podrían realizar estrategias comerciales."
+          ]
+        },
+        {
+          "title": "Objetivo General",
+          "content": [
+            "Realizar un análisis de opinión sobre el contenido de IMDB y evaluar en cuanto a exactitud su generalización a contenido de otros contextos, como contenido obtenido de la tienda virtual Amazon en el contexto de ventas al por menor (Retail)."
+          ]
+        }
+      ]
+    }
+  ]
+}

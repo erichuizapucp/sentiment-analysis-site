@@ -1,14 +1,9 @@
-{% macro get_navlink_class(link) %}
-    {% if link == request.path %}nav-link active{% else %}nav-link{% endif %}
-{% endmacro %}
-
-<ul class="nav">
-    <li class="nav-item">
-        <a class="{{ get_navlink_class('/') }}" href="/">Inicio</a>
-        <a class="{{ get_navlink_class('/state-of-art') }}" href="/state-of-art">Estado del Arte</a>
-        <a class="{{ get_navlink_class('/method') }}" href="/method">Método</a>
-        <a class="{{ get_navlink_class('/dataset') }}" href="/dataset">Conjunto de Datos</a>
-        <a class="{{ get_navlink_class('/results') }}" href="/results">Resultados</a>
-        <a class="{{ get_navlink_class('/references') }}" href="/references">Referencias</a>
-    </li>
-</ul>
+<div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 text-muted" href="/">Inicio</a>
+      <a class="p-2 text-muted" href="/state-of-art">Estado del Arte</a>
+      <a class="p-2 text-muted" href="/method">Método</a>
+      <a class="p-2 text-muted" href="/conclusions">Conclusiones</a>
+      <a class="p-2 text-muted" href="/references">Referencias</a>
+    </nav>
+</div>

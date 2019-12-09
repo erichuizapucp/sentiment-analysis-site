@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "title": "Referencias",
+      "content": [
+        "<ol>",
+        "<li>Lopamudra Dey, Sanjay Chakraborty, Anuraag Biswas, Beepa Bose, Sweta Tiwari. \"Sentiment Analysis of Review Datasets Using Naive Bayes and K-NN Classifier\", Volume-8, Issue-4, pp.54-62, 2016.</li>",
+        "<li>Aurangzeb khan, Khairullah khan, Shakeel Ahmad, Fazal Masood Kundi, Irum Tareen, Muhammad Zubair Asghar, \"Lexical Based Semantic Orientation of Online Customer Reviews and Blogs \", Journal of American Science 2014;10(8).</li>",
+        "<li>Piotr Pohorecki, Julian Sienkiewicz, Marija Mitrovic, Georgios Paltoglou, Janusz A. Holyst, \"Statistical analysis of emotions and opinions at Digg website\",  Acta Physica Polonica A 123, 604 (2013), 16 April, 2012; v1 submitted 26 January, 2012.</li>",
+        "<li>Srividya K, Mary Sowjanya A, \"Aspect based sentiment analytics using POS tagging and TFIDF\", International Journalist of Engineering and Advanced Techology, Volume 8, Issue 6, August 2019, Pages 1960-1963.</li>",
+        "<li>Suganya E., Vijayarani S. \"SEntiment Analytsis for Scraping of  Product Reviews from Multiple Web Pages Using Machine Learning Almorithms\", Joint Conferences on 18th International Conference on Intelligent Systems Design and Applications, ISDA 2018 and 10th World Congress on Nature and Biologically Inspired Computing , NaBIC 2018; Vellore; India; 6 December 2018 through 8 December 2018; Code 225389, Volume 941, 2020, Pages 677-685.</li>",
+        "<li>Andrew L. Maas. (2019, Ago 28) Large Movie Review Dataset recuperado de <a href=\"https://ai.stanford.edu/~amaas/data/sentiment/\" /></a>https://ai.stanford.edu/~amaas/data/sentiment/</li>",
+        "</ol>"
+      ]
+    }
+  ]
+}

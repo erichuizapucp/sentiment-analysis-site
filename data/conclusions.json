@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "title": "Conclusiones",
+      "content": [
+        "<ul>",
+        "<li>El presente artículo se centra en un análisis semántico más profundo del contenido de los comentarios de compras de Amazon vertidos en las redes. La etapa de preprocesamiento comprende la eliminación de \"stop words” que no contribuyen con información significativa al modelo, la determinación de palabras raíces y la vectorización de palabras con mayor frecuencia, los cuales demostraron tener una influencia positiva en los resultados.</li>",
+        "<li>Asimismo, la elección de un modelo con una Red Neuronal Fully Connected contribuyó a obtener un resultado satisfactorio con una precisión de 92.03% superando modelos alternativos de aprendizaje de máquina como SVM.</li>",
+        "<li>Sin embargo, cuando se intentó clasificar los comentarios de una base de datos desconocida para el modelo (comentarios de productos comestibles en la página de Amazon), este no obtuvo resultados tan satisfactorios. Una posible explicación a ello podría ser que el modelo solo utilizó un conjunto de 100 palabras vectorizadas.</li>",
+        "<li>Como trabajo futuro proponemos obtener bases de datos más grandes y con comentarios a productos y servicios de mayor variedad, y de esta manera entrenar el modelo con un conjunto más grande de palabras vectorizadas y con mayor riqueza semántica.</li>",
+        "</ul>"
+      ]
+    }
+  ]
+}

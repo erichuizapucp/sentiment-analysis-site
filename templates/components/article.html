@@ -1,0 +1,20 @@
+{% macro print_article(item) %}
+    <div class="blog-post">
+        {% if item.title %}
+            <h3 class="mb-0">{{ item.title }}</h3>
+            <br />
+        {% endif %}
+        {% for content in item['content'] %}
+            <p class="card-text mb-auto">{{ content | safe }}</p>
+        {% endfor %}
+        {% if item['subsections'] %}
+            {% for section in item['subsections'] %}
+                <br />
+                <h4 class="mb-0">{{ section['title'] }}</h4>
+                {% for section_content in section['content'] %}
+                    <p class="card-text mb-auto">{{ section_content | safe }}</p>
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endmacro %}

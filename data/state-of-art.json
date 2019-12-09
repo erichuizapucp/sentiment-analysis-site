@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "title": "Estado del Arte",
+      "content": [
+        "El análisis de opinión y contenido en base a los comentarios de películas, tiene como estado del arte lo siguiente:"
+      ],
+      "subsections": [
+        {
+          "title": "Análisis de opinión de los conjuntos de datos de revisión utilizando Naive Bayes y Clasificador K-NN",
+          "content": [
+            "El advenimiento de la Web 2.0 ha llevado a un aumento en La cantidad de contenido sentimental disponible en la Web. Dicho contenido a menudo se encuentra en los sitios web de redes sociales en el forma de reseñas de películas o productos, comentarios de usuarios, testimonios, mensajes en foros de discusión, etc. descubrimiento del contenido web sentimental u obstinado tiene una serie de ventajas, siendo la más importante de todas monetización Comprensión de los sentimientos humanos. masas hacia diferentes entidades y productos permite mejores servicios para anuncios contextuales, Sistemas de recomendación y análisis de tendencias del mercado.",
+            "El enfoque de nuestro proyecto es el rastreo web centrado en el sentimiento marco para facilitar el descubrimiento rápido de sentimental contenido de reseñas de películas y reseñas de hoteles y análisis de lo mismo. Utilizamos métodos estadísticos para capturar elementos de estilo subjetivo y la polaridad de la oración. El papel analiza detalladamente dos aprendizajes automáticos supervisados algoritmos: K-Nearest Neighbors (K-NN) y Naïve Bayes ' y compara su precisión general, precisiones y recordar valores. Se vio que en caso de críticas de películas Naive Bayes \"dio resultados mucho mejores que K-NN pero para el caso de hoteles, estos algoritmos dieron menos, casi lo mismo precisiones."
+          ]
+        },
+        {
+          "title": "Orientación semántica basada en léxico de comentarios de clientes en línea y blogs",
+          "content": [
+            "El rápido aumento de los usuarios de Internet junto con el creciente poder de los sitios de revisión en línea y las redes sociales ha dado lugar a análisis de sentimientos o minería de opinión, que tiene como objetivo determinar lo que otras personas piensan y comentan. Sentimientos u opiniones contener contenido público generado sobre productos, servicios, políticas y políticas. La gente generalmente está interesada en buscar resultados positivos y opiniones negativas que contienen me gusta y no me gusta, compartidas por los usuarios para las características de un producto o servicio en particular. Este documento propuso método de clasificación de sentimiento independiente del dominio basado en léxico a nivel de oración para diferentes tipos de datos, como revisiones y blogs El método propuesto se basa en léxicos generales, es decir, WordNet, SentiWordNet y diccionarios léxicos definidos por el usuario para Orientación semántica. Las relaciones y glosas de estos diccionarios proporcionan una solución al problema de portabilidad del dominio. Los El método funciona mejor que los métodos de aprendizaje automático basados \u200B\u200Ben corpus a nivel de palabra y texto para la orientación semántica. Los resultados muestran que el método propuesto funciona mejor, ya que muestra una precisión del 87% y 83% a nivel de documento y oración, respectivamente para comentarios en línea."
+          ]
+        },
+        {
+          "title": "Análisis estadístico de emociones y opiniones en el sitio web de Digg",
+          "content": [
+            "Realizamos un análisis estadístico de los datos del sitio web Digg.com, que permite sus usuarios para expresar su opinión sobre las noticias participando en debates tipo foro como así como evaluar directamente publicaciones e historias anteriores asignando los llamados \"diggs\". Debido De hecho, el contenido de cada publicación ha sido anotado con su valor emocional, aparte de las propiedades estrictamente estructurales, el estudio también incluye un análisis del promedio respuesta emocional de las publicaciones comentando la historia principal. Mientras analiza correlaciones a nivel de la historia, una relación interesante entre el número de diggs y el número de los comentarios recibidos por una historia fue encontrada. La correlación entre las dos cantidades es alta para los datos donde dominan los pequeños hilos y disminuye constantemente durante más tiempo hilos. Sin embargo, mientras que la correlación del número de diggs y el promedio emocional la respuesta tiende a crecer para hilos más largos, correlaciones entre el número de comentarios y la respuesta emocional promedio es casi cero. También mostramos que el conjunto inicial de Los comentarios dados a una historia tienen un impacto sustancial en la \"vida\" de la discusión: las altas emociones negativas promedio en los primeros 10 comentarios conducen a hilos más largos mientras que el La situación opuesta da como resultado discusiones más cortas. También sugerimos la presencia de dos diferentes mecanismos que rigen la evolución de la discusión y, en consecuencia, su duración."
+          ]
+        },
+        {
+          "title": "Análisis de sentimiento basado en aspectos usando etiquetado POS y TFIDF",
+          "content": [
+            "El contenido de las redes sociales en Internet aumenta día a día. Dado que el conocimiento de los medios ayuda a las personas a tomar decisiones, las empresas basadas en la web brindan a sus clientes la oportunidad de expresar sus opiniones sobre los elementos disponibles en la web en forma de encuestas y reseñas. El análisis de sentimientos se puede utilizar en reseñas de productos o tweets, comentarios, blogs para inferir los sentimientos o actitudes individuales. Aquí, el Análisis de sentimientos basado en aspectos se utiliza para extraer el aspecto más interesante de un producto en particular del texto sin etiquetar. Hemos desarrollado dos modelos para la extracción de aspectos / características: el Modelo1 usa el etiquetado POS mientras que el Modelo2 usa TFIDF. En el Modelo 1 comenzamos con un algoritmo de frase nominal y lo extendemos a adjetivos y adverbios para extraer todos los términos de aspecto. En el modelo 2 después del procesamiento previo de datos se utiliza la técnica TDIDF. Se calculan las importancias relativas de los aspectos y se presentan al usuario los aspectos positivos, negativos y neutrales más importantes. Naïve Bayes, máquina de vectores de soporte, árbol de decisión, KNN se utilizaron para clasificar la polaridad de los sentimientos generados. © BEIESP."
+          ]
+        },
+        {
+          "title": "Análisis de opinión para el raspado de revisiones de productos de múltiples páginas web utilizando algoritmos de aprendizaje automático",
+          "content": [
+            "El análisis de sentimientos es la tarea computacional de determinar automáticamente qué sentimientos se expresa un escritor en el texto. El análisis de sentimientos está ganando mucha atención en los últimos años. A menudo se enmarca como una distinción binaria, es decir, positiva versus negativa, pero también puede ser más precisa, como identificar la emoción específica que un autor está expresando como miedo, alegría o enojo. A nivel mundial, las empresas comerciales pueden aprovechar la polaridad de opinión y el sentimiento, el reconocimiento de temas para obtener una comprensión más profunda de los impulsores y el alcance general. Posteriormente, estos conocimientos pueden avanzar en la inteligencia competitiva y mejorar el servicio al cliente, creando así una mejor imagen de marca y proporcionando una ventaja competitiva. Para extraer el contenido del sitio web de comercio electrónico utilizando la técnica de raspado web. Pasará por el número de páginas más o menos de comentarios para cada uno de los productos. En este trabajo, las revisiones de productos en línea se recopilan utilizando la técnica de raspado web. Las revisiones de productos en línea recopiladas se analizan utilizando análisis de opinión o de sentimientos utilizando modelos de clasificación como KNN, SVM, Random Forest, CNN (Red neuronal convolucional) y SVM-CNN híbrido propuesto. Los experimentos para los modelos de clasificación se realizan con resultados prometedores. © 2020, Springer Nature Switzerland AG."
+          ]
+        }
+      ]
+    }
+  ]
+}
